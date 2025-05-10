@@ -1,0 +1,40 @@
+*{
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.encabezado{
+    border: 3px red solid;
+    width: 50%; /*px -> %*/
+    text-align: center;
+    margin-left: 25%;
+    /*height -> padding-bottom / padding-top*/
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 2vw; /*2vw ajusta el tamaño de la letra a la pantalla*/
+
+}
+
+.logo img{
+    width: 100%;
+
+}
+.logo{
+    width: 30%;
+    margin-left: 35%;
+
+}
+
+
+
+
+/*
+¿Cómo trabajar con imágenes aplicando resposive?
+1. Metemos la imagen en un div.
+2. Aplicamos que el 100% de la imagen sea el tamaño del div.
+3. Damos a la clase la anchura que queramos que tenga la imagen en %.
+
+
+*/
