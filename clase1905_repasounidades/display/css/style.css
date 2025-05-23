@@ -1,10 +1,29 @@
 /*
 APUNTES:
 -block: Ocupa todo el ancho disponible. Inicia en linea nueva
--inline:
--inline-block:
--none:
--flex:
--grid:
+-inline: No inicia nueva linea. Se ocupa su contenido. No acepta ancho/alto
+-inline-block: Como inline pero permite ancho/alto.
+-none: Oculta completamente al elemento.
+-flex: Contenedor flexible.
+-grid: Contenedor en forma de cuadrícula.
 
 */
+
+.block{
+    display: block;
+    margin-bottom: 10px;
+    background-color: lightblue;
+
+}
+.Inline{
+    display: inline;
+    background-color: lightgreen;
+
+}
+
+.inline-block{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    background-color: lightcoral;
+}

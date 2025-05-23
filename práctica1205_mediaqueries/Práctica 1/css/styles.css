@@ -21,28 +21,14 @@ main{
 
 }
 
-.teclados{
+section{
+
     background-color: beige;
     padding: 2rem;
     margin-bottom: 2rem;
+
+}
     
-
-
-}
-
-.keycaps{
-    background-color: beige;
-    padding: 2rem;
-    margin-bottom: 2rem;
-
-}
-
-.contacto{
-    background-color: beige;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
 footer{
     padding: 3%;
     margin-top: 20px;
@@ -55,16 +41,9 @@ footer{
         background-color: #e2725b;
 }
 
-.teclados{
+section{
     background-color: aliceblue;
-}
 
-.keycaps{
-    background-color: aliceblue;
-}
-
-.contacto{
-    background-color: aliceblue;
 }
 
 
