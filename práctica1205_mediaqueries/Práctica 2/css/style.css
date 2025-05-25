@@ -5,6 +5,7 @@
 
 body{
     font-size: 1.2rem;
+    font-family: Poppins;
 }
 
 .Productos{
@@ -18,6 +19,26 @@ body{
     padding: 1rem;
     margin-bottom: 2rem;
     background-color: #E6E6FA;
+    border: 1px #5c5ccc solid;
+    border-radius: 10px;
+    box-shadow: 2px -4px 17px -1px rgba(189,123,183,0.78);
+-webkit-box-shadow: 2px -4px 17px -1px rgba(189,123,183,0.78);
+-moz-box-shadow: 2px -4px 17px -1px rgba(189,123,183,0.78);
+
+}
+
+.Productos article:hover{
+    background-color: plum;
+    color: white;
+    transition: 1s;
+    border: 1px #db5dd1 solid;
+
+}
+
+@font-face{
+    font-family: 'Poppins'; /*esto es el nombre de la fuente, se puede poner el nombre que queramos*/
+    src:url("../tip/Poppins-Regular.ttf")
+
 }
 
 @media screen and (min-width:600px) {
