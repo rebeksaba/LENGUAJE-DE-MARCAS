@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+    <empleado>
+        <nombre>Eva</nombre>
+        <apellido>Sánchez</apellido>
+        <numero>659889</numero>
+        <correo>eva.sanchez@gmail.com</correo>
+        <direccion>
+            <ciudad>Arganda del Rey</ciudad>
+            <estado>España</estado>
+            <zip>28500</zip>
+        </direccion>
+    </empleado>
+
+</empresa>
+    

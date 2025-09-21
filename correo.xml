@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<email>
+    <correo id="1">
+        <de>rebe.sanchez@thepower.education</de>
+        <para>manolo.perez@thepower.education</para>
+        <cc></cc>
+        <cco></cco>
+        <asunto>Correo prueba</asunto>
+        <mensaje>"Hola que tal estáis?
+            espero que todo vaya bien."
+
+        </mensaje>
+        </importanciaAlta>
+
+    </correo>
+
+    <correo id="2">
+        <de>rebe.sanchez@thepower.education</de>
+        <para>pepe.perez@thepower.education</para>
+        <cc></cc>
+        <cco></cco>
+        <asunto>Correo prueba</asunto>
+        <mensaje>"Hola que tal estáis?
+            espero que todo vaya bien."
+
+        </mensaje>
+
+    </correo>
+    
+
+</email>
