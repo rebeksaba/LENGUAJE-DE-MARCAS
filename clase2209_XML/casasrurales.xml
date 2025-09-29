@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE casas_rurales [
+    <!ELEMENT casas_rurales (casa+)>
+    <!ELEMENT casa (direccion, descripcion?, estado,(tamnio | hectareas), disponible?)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ELEMENT estado (#PCDATA)>
+    <!ELEMENT tamanio (#PCDATA)>
+    <!ELEMENT hectareas (#PCDATA)>
+    <!ELEMENT disponible EMPTY>
+]>  
+<casas_rurales>
+    <casa>
+        <direccion>Avenida de los Rosales</direccion>
+        <descripcion>Casa rural de verano con piscina, vistas a la playa</descripcion>
+        <estado>Disponible</estado>
+        <tamanio>200m2</tamanio>
+        <disponible></disponible>
+    </casa>
+
+    <casa>
+        <direccion>Avenida de los Rosales</direccion>
+        <descripcion>Casa rural de verano con piscina, vistas a la playa</descripcion>
+        <estado>Disponible</estado>
+        <hectareas>1h</hectareas>
+        <disponible></disponible>
+    </casa>
+</casas_rurales>
