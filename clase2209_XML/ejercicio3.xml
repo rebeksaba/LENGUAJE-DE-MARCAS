@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<factura>
+    <cabecera>   
+    </cabecera>
+    <lineas>
+        <linea>
+            <producto>Teclado mecánico</producto>
+            <cantidad>2</cantidad>
+            <precioUnitario>59.90</precioUnitario>
+        </linea>
+        <linea>
+            <producto>Ratón inalámbrico</producto>
+            <cantidad>1</cantidad>
+            <precioUnitario>39.90</precioUnitario>
+        </linea>
+
+    </lineas>
+    <totales>
+        <subtotal>159.70</subtotal>
+        <iva>21</iva>
+        <total>193.24</total>
+    </totales>
+</factura>
