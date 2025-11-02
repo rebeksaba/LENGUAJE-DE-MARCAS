@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="library.xsd">
+    <book>
+        <title>Un lugar a donde ir</title>
+        <author>María Oruña</author>
+        <year>2017</year>
+        <publisher>Destino</publisher>
+        <pages>518</pages>
+    </book>
+    <book>
+        <title>Experiencias en la frontera</title>
+        <author>Paloma Navarrete</author>
+        <year>2014</year>
+        <publisher>Planeta</publisher>
+        <pages>221</pages>
+    </book>
+    <book>
+        <title>Crónicas del más allá</title>
+        <author>Sol Blanco-Soler</author>
+        <year>2011</year>
+        <publisher>Planeta</publisher>
+        <pages>319</pages>
+    </book>
+</library>      
