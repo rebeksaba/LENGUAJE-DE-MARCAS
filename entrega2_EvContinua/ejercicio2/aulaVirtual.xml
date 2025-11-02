@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plataforma fecha_publicacion="2025-11-02">
-
-
+<plataforma fecha_publicacion="2025-11-02"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="aulaVirtual.xsd">
     <cursos>
         <curso id="Cur1" codigo="DAW">
             <titulo>Desarrollo de Aplicaciones Web</titulo>
