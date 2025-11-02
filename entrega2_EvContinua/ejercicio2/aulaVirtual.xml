@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plataforma fecha_publicacion="2025-11-02">
+
+
+    <cursos>
+        <curso id="Cur1" codigo="DAW">
+            <titulo>Desarrollo de Aplicaciones Web</titulo>
+            <nivel>Grado Superior</nivel>
+            <modalidad>Online</modalidad>
+            <horas>2000</horas>
+            <modulos>
+                <modulo clave="Mod1">
+                    <nombre>Lenguaje de Marcas</nombre>
+                    <horas>200</horas>
+                </modulo>
+                <modulo clave="Mod2">
+                    <nombre>Programación</nombre>
+                    <horas>300</horas>
+                </modulo>
+            </modulos>
+        </curso>
+    </cursos>
+
+    <alumnos>
+        <alumno id="Alum1" nif="51486657L">
+            <nombre>Rebeca Sánchez</nombre>
+            <email>rebeca.sanchez@gmail.com</email>
+            <telefono>668477123440</telefono>
+        </alumno>
+        <alumno id="Alum2" nif="31448725B">
+            <nombre>Eva Bayón</nombre>
+            <email>eva.bayon@gmail.com</email>
+            <telefono>64732649822</telefono>
+        </alumno>
+    </alumnos>
+
+    <matriculas>
+        <matricula id="Mat1" alumnoRef="Alum1" cursoRef="Cur1">
+            <fecha_alta>2025-02-10</fecha_alta>
+            <estado>activa</estado>
+        </matricula>
+        <matricula id="Mat2" alumnoRef="Alum2" cursoRef="Cur1">
+            <fecha_alta>2025-02-12</fecha_alta>
+            <estado>activa</estado>
+        </matricula>
+    </matriculas>
+
+    <evaluaciones>
+        <evaluacion id="Eval1" matriculaRef="Mat1">
+            <instrumento>Examen</instrumento>
+            <convocatoria>Ordinaria</convocatoria>
+            <nota>9.25</nota>
+        </evaluacion>
+        <evaluacion id="Eval2" matriculaRef="Mat2">
+            <instrumento>TFG</instrumento>
+            <convocatoria>Ordinaria</convocatoria>
+            <nota>7.5</nota>
+        </evaluacion>
+    </evaluaciones>
+</plataforma>
