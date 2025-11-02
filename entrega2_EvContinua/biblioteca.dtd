@@ -1,3 +1,4 @@
+<!--
 <!ELEMENT catalogo (libros, revistas, usuarios, prestamos)>
 <!ATTLIST catalogo fecha CDATA #REQUIRED>
 
@@ -44,3 +45,4 @@
 <!ELEMENT fecha_inicio (#PCDATA)>
 <!ELEMENT fecha_fin (#PCDATA)>
 <!ELEMENT estado (#PCDATA)>
+-->
